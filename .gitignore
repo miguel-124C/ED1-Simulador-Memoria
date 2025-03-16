@@ -1,0 +1,32 @@
+# Archivos binarios y compilados
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.pdb
+*.tds
+*.dcu
+*.bpl
+*.dcp
+*.map
+*.dsk
+
+# Archivos de configuración específicos de C++ Builder
+__history/
+__recovery/
+*.identcache
+*.local
+*.groupproj.local
+*.tvsconfig
+*.ddp
+*.stat
+*.dproj.local
+
+# Archivos intermedios y de caché
+*.ilc
+*.ild
+*.ilf
+*.
