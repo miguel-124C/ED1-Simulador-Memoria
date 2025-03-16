@@ -42,9 +42,8 @@ __published:	// IDE-managed Components
 	TEdit *Edit8;
 	TButton *Button6;
 	TLabel *Label6;
-	TButton *Button7;
-	TButton *Button8;
 	TPanel *Panel2;
+	TLabel *Label7;
 	void __fastcall FormPaint(TObject *Sender);
 	void __fastcall OnCreateMemoria(TObject *Sender);
 	void __fastcall OnPedirEspacio(TObject *Sender);
@@ -71,15 +70,15 @@ private:	// User declarations
 	TColor BgId   = (TColor)0x22ffff;
 	TColor BgLink = (TColor)0x22ffff;
 
-	int WidthDir  = 30;
+	int WidthDir  = 40;
 	int WidthDato = 300;
-	int WidthId   = 300;
-	int WidthLink = 40;
+	int WidthId   = 270;
+	int WidthLink = 60;
 
 	int HeightFields = 40;
 
 	void DibujarRow( int &x1, int &y1, int index );
-	void DibujarField( int &x1, int &y1, TColor color, int width, AnsiString texto );
+	void DibujarField( int &x1, int &y1, TColor color, int width, AnsiString texto, TColor colorText );
 
 public:		// User declarations
 	__fastcall TForm2(TComponent* Owner);
